@@ -1,5 +1,5 @@
 package proyecto;
-
+import proyecto.Restaurante.VentanaRestaurante;
 import java.util.ArrayList;
 import proyecto.Pedido.Factura;
 import proyecto.Platillo.Platillo;
@@ -38,10 +38,12 @@ public class Proyecto {
         // vista.init();
         /*VentanaMenu vista = new VentanaMenu();
        vista.init();*/
-        Mesa mesa = new Mesa(0, "Pedro");
-        mesa.setDisponibilidad(false);
-
-        VentanaMesa vntMesa = new VentanaMesa(mesa, "Mesa");
-        vntMesa.iniciar();
+//        Mesa mesa = new Mesa(0, "Pedro");
+//        mesa.setDisponibilidad(false);
+//
+//        VentanaMesa vntMesa = new VentanaMesa(mesa, "Mesa");
+//        vntMesa.iniciar();
+VentanaRestaurante ventanaRestaurante= new VentanaRestaurante();
+ventanaRestaurante.init();
     }
 }

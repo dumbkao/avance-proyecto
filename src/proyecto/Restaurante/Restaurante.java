@@ -5,7 +5,7 @@ import proyecto.Pedido.Pedido;
 import java.util.ArrayList;
 
 public class Restaurante {
-
+   // private conjuntoMesas mesas;
     private ArrayList<Mesa> mesas;
     private ArrayList<Pedido> llevar;
     private ArrayList<Pedido> express;
